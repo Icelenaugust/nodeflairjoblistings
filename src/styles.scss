@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+*, *:before, *:after {
+    box-sizing: inherit;
+    vertical-align: top;
+    background-repeat: no-repeat;
+}
+
+img {
+    display: block;
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+body {
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    color: #3a3a3a;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    background-color: #f3f2ef;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+

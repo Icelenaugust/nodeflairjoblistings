@@ -1,0 +1,32 @@
+<div class="container" #jobCard
+    (mouseenter)="mouseHover(jobCard)"
+    (mouseleave)="mouseLeave(jobCard)">
+    <div class="job-listing-card-top-information">
+        <div class="top-portion">
+            <div class="avatar-container">
+                <img class="company-avatar" src="assets/SUSE.png">
+            </div>
+            <div class="information-container">
+                <p>SUSE</p>
+                <h2 class="job-listing-card-title">Kubernetes Technical Consultant</h2>
+                <p class="job-listing-card__salary"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="indiv-block" style="margin: auto;">
+                <p>1 minute ago</p>
+            </div>
+            <div class="indiv-block">
+                <span class="specialisation-container">Solutions</span>
+            </div>
+        </div>
+    </div>
+    <div class="job-listing-card-bottom-information">
+        <span class="tech-stack-container false">Docker</span>&nbsp;
+        <span class="tech-stack-container false">Tanzu</span>&nbsp;
+        <span class="tech-stack-container false">Container</span>&nbsp;
+        <span class="tech-stack-container false">AKS</span>&nbsp;
+        <span class="tech-stack-container false">GKE</span>&nbsp;
+        <span class="tech-stack-container false">EKS</span>&nbsp;
+    </div>
+</div>
