@@ -1,20 +1,15 @@
-
 .job-card-container {
     display: flex;
     flex-flow: row;
     height: 100%;
     width: 100vw;   
     flex-wrap: wrap;
-    //justify-content: center;
     app-job-card {
         overflow: hidden;
         padding: 10px;
         cursor: pointer;
     }
-
 }
-
-
 
 @media (min-width: 1140px) {
 

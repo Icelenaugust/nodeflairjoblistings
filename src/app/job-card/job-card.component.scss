@@ -8,7 +8,6 @@
     position: relative;
     min-width: 355px;
  
-
     .job-listing-card-top-information::after {
         content: " ";
         width: 100%;
@@ -88,10 +87,7 @@
                     float: right;
                 }
             }
-        }
-    
-
-        
+        }   
     }
 
     .job-listing-card-bottom-information {
@@ -147,12 +143,8 @@
                     p {
                         margin-top: 5px;
                     }
-
                 }
-            }
-            
+            }  
         }
-
-    }
-    
+    }  
 }
